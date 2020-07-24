@@ -1,0 +1,17 @@
+/* Amplify Params - DO NOT EDIT
+	API_AMPLIFYSAMPLEFLOW_GRAPHQLAPIIDOUTPUT
+	API_AMPLIFYSAMPLEFLOW_PRIVATENOTETABLE_ARN
+	API_AMPLIFYSAMPLEFLOW_PRIVATENOTETABLE_NAME
+	API_AMPLIFYSAMPLEFLOW_TASKTABLE_ARN
+	API_AMPLIFYSAMPLEFLOW_TASKTABLE_NAME
+	AUTH_AMPLIFYSAMPLEFLOWB179936B_USERPOOLID
+Amplify Params - DO NOT EDIT */
+
+exports.handler = async (event) => {
+    // TODO implement
+    const response = {
+        statusCode: 200,
+        body: JSON.stringify('Hello from Lambda!'),
+    };
+    return response;
+};
