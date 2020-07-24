@@ -1,0 +1,21 @@
+type Task 
+  @model
+  @searchable 
+  @auth(rules: [
+      {allow: groups, groups: ["Managers"], queries: null, mutations: [create, update, delete]},
+      {allow: groups, groups: ["Employees"], queries: [get, list], mutations: null}
+    ])
+{
+  id: ID!
+  title: String!
+  description: String
+  status: String
+}
+type PrivateNote
+  @model
+  @searchable 
+  @auth(rules: [{allow: owner}])
+{
+  id: ID!
+  content: String!
+}
