@@ -1,0 +1,29 @@
+{
+  "mutableParametersState": {
+    "permissions": {
+      "auth": {
+        "amplifysampleflowb179936b": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      },
+      "storage": {
+        "Task:@model(appsync)": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ],
+        "PrivateNote:@model(appsync)": [
+          "create",
+          "read",
+          "update",
+          "delete"
+        ]
+      }
+    }
+  },
+  "lambdaLayers": []
+}
